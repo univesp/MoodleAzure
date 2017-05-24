@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
 
 	"parameters": {
-		"moodleVersion":		{ "value": "MOODLE_32_STABLE" },
+		"moodleVersion":		{ "value": "MOODLE_33_STABLE" },
 		    "adminPassword":	{ "value": "Sw!mmingP00l" },
 		"mySQLuserPassword":	{ "value": "Sw!mmingP00l" },
 		"mySQLrootPassword":	{ "value": "Sw!mmingP00l" },
