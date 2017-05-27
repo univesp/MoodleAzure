@@ -151,7 +151,7 @@
    # php config 
    PhpIni=/etc/php5/apache2/php.ini
    sed -i "s/memory_limit.*/memory_limit = 512M/" $PhpIni
-   sed -i "s/upload_max_filesize/upload_max_filesize = 50M/" $PhpIni
+   sed -i "s/upload_max_filesize.*/upload_max_filesize = 50M/" $PhpIni
    sed -i "s/;opcache.use_cwd.*/opcache.use_cwd = 1/" $PhpIni
    sed -i "s/;opcache.validate_timestamps.*/opcache.validate_timestamps = 1/" $PhpIni
    sed -i "s/;opcache.save_comments.*/opcache.save_comments = 1/" $PhpIni
